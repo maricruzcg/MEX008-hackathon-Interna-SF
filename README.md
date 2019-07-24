@@ -43,8 +43,11 @@ Si la postulante después de ingresar sus datos quiere seguir teniendo la forma 
 
 - ### Sketch y/o prototipo (alta fidelidad , baja fidelidad o navegable.)
 
+    1. Sketch (baja fidelidad)
+    
+    ![sketch](src/img/sketch1.jpeg)
 
-    1. Prototipo 1.0 Figma. 
+    2. Prototipo 1.0 Figma. 
     
     [Demo](https://www.figma.com/proto/bLrKYSYOSwNRFz4bEJs25h/Pre-supuesto?node-id=10%3A95&scaling=scale-down)
 
@@ -52,30 +55,32 @@ Si la postulante después de ingresar sus datos quiere seguir teniendo la forma 
 
 - ### Qué hizo cada una en el proyecto.
     * Isis Lázaro
-        Diagrama de flujo
+        - Diagrama de flujo
     * Julieta Cervantes
-        User Persona
+        - User Persona
     * Leticia Vianey Lara Rangel
-        Estructura readme, sketch 
+        - Estructura readme, sketch 
     * Maricruz Carmona
-        Prototipo Alta fidelidad
+        - Prototipo Alta 
     
 - ### Documentación de la importancia de una gestion saludable de la finanzas.
 
-## FE
+# FE
 
-- ### Diseño de UI
+- ## Diseño de UI
     
     ### Diagrama de flujo
 
     ![Diagrama de flujo](src/img/flowPresupuesto.jpg)
 
     ### MVP(Código)
+    
     * Lista de gastos mensuales
     * Ahorro disponible
     * Tiempo sin percibir ingresos
 
     ### Definition of done (del prototipo)
+    
     1. Mostrar al usuarix si podrá solventar su permanencia en el bootcamp.
 
     2. Informar al usuarix sobre cómo, cuándo y que rubros debe utilizar para generar el hábito del ahorro y la gestión de finanzas personales y así establecer una meta realista y alcanzable a corto/mediano plazo.
