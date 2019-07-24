@@ -16,7 +16,7 @@ En el caso de que los ingresos actuales de las postulantes no sean suficientes p
 
 2. **Solución:** Fomentar que lxs usuarixs administren sus gastos.
 
-Si la postulante después de ingresar sus datos quiere seguir teniendo la forma de administrar su dinero, lxs usuarixs tendrán que crear una cuenta para poder obtener el seguimiento y registro de su información, así podrá realizar cambios, como gastos imprevisto fuera del presupuesto.
+Si la postulante después de ingresar sus datos quiere seguir teniendo la forma de administrar su dinero, lxs usuarixs tendrán que crear una cuenta para poder obtener el seguimiento y registro de su información, así podrá realizar cambios, como gastos imprevistos fuera del presupuesto.
 
 ## UX
 
@@ -56,7 +56,7 @@ Si la postulante después de ingresar sus datos quiere seguir teniendo la forma 
     * Julieta Cervantes
         User Persona
     * Leticia Vianey Lara Rangel
-        Benchmark 
+        Estructura readme, sketch 
     * Maricruz Carmona
         Prototipo Alta fidelidad
     
@@ -68,6 +68,8 @@ Si la postulante después de ingresar sus datos quiere seguir teniendo la forma 
     
     ### Diagrama de flujo
 
+    ![Diagrama de flujo](src/img/flowPresupuesto.jpg)
+
     ### MVP(Código)
     * Lista de gastos mensuales
     * Ahorro disponible
@@ -78,10 +80,3 @@ Si la postulante después de ingresar sus datos quiere seguir teniendo la forma 
 
     2. Informar al usuarix sobre cómo, cuándo y que rubros debe utilizar para generar el hábito del ahorro y la gestión de finanzas personales y así establecer una meta realista y alcanzable a corto/mediano plazo.
 
-- ### Construir una web app que solucione una problemática.
-
-- ### Deployment en github pages o en alguna plataforma de hosting ( now, firebase hosting).
-
-- ### En este proyecto debe haber persistencia de los datos. 
-    
-- ### Usar algún framework de CSS.
