@@ -1,96 +1,82 @@
-# "Hackathon" de final de _Common Core_, Salud Financiera
+# El "Pre-supuesto"
 
-## Índice
+## Problemática
 
-- [Preámbulo](#preámbulo)
-- [Resumen del proyecto](#resumen-del-proyecto)
-- [Consideraciones generales](#consideraciones-generales)
-- [Objetivos de aprendizaje](#objetivos-de-aprendizaje)
-- [Parte obligatoria](#parte-obligatoria)
-- [Consideraciones técnicas](#consideraciones-técnicas)
+Nuestra aplicación está dirigida a **postulantes de Laboratoria** que quieran saber al momento de su **registro**, con base a sus gastos mensuales y ahorros, si cuentan con los recursos necesarios para cursar el bootcamp, ya que los requisitos son los siguientes:
 
----
+_"El Bootcamp tiene una duración de 6 meses, es intensivo y deberás venir a clases de Lunes a Viernes durante 5 hrs diarias. Es importante recalcar que esta parte del programa no se puede hacer online y requerirá tiempo completo de dedicación de tu parte, ya que deberás estudiar y hacer tareas en tu casa diariamente"._
 
-## Preámbulo
+Al ser un programa intensivo y de tiempo completo, las postulantes no pueden obtener ingresos por lo que se ven limitadas en situaciones cómo vivir de ahorros o préstamos. Esta es la razón por la que nace “Pre-supuesto”, pues es una herramienta para que las futuras postulantes tengan el conocimiento de sus finanzas y puedan saber de manera rápida y sencilla si podrán solventar su permanencia en el Bootcamp , e incluso saber cuánto dinero deben de tener para mantenerse 6 meses sin ingresos.
 
-Con la revolución de las fintech (“fin” finanzas, “tech” tecnología) se han desarrollado multitud de aplicaciones que han llegado para quedarse. La comodidad, la rapidez y su fácil uso son los atributos principales que hace de ellas un complemento fundamental para las operaciones financieras del día a día.
+En el caso de que los ingresos actuales de las postulantes no sean suficientes para su permanencia en el Bootcamp, la aplicación les brindará la posibilidad de calcular el ahorro que necesitarán para poder solventar su permanencia en el Bootcamp.
 
-Para llevar una mejor gestión de las operaciones financieras, con la disrupción de la tecnología, se han creado diferentes aplicaciones fintech que te permiten realizar, controlar y planificar las diferentes actividades financieras que las personas desarrollan en su vida. 
+1. **Usuarixs:** Futuras postulantes de Laboratoria.
+
+
+2. **Solución:** Fomentar que lxs usuarixs administren sus gastos.
+
+Si la postulante después de ingresar sus datos quiere seguir teniendo la forma de administrar su dinero, lxs usuarixs tendrán que crear una cuenta para poder obtener el seguimiento y registro de su información, así podrá realizar cambios, como gastos imprevisto fuera del presupuesto.
+
+Requerimientos:
+
+UX 
+Readme
+
+Historia de usuario
+User persona
+Modelo de negocio
+Investigación de la importancia de la gestión saludable de las finanzas
+Investigar la competencia 
+Diagrama de flujo
+Sketch
+Prototipo de alta fidelidad
+Paleta de color (Laboratoria)
+Tipografía (Laboratoria)
+
+Front-end
+
+MVP(Código)
+Lista de gastos mensuales
+Ahorro disponible
+Tiempo sin percibir ingresos
+
+Definition of done (del prototipo)
+
+
+
+
 
 Al mismo tiempo, si bien existen muchas aplicaciones que ayudan a los usuarios a crear un Presupuesto mensual, existe todavía un hueco. No hay aplicaciones que ayuden y eduquen a las personas a planificar sus ingresos, gastos y ahorros con miras a un futuro tanto de corto como de mediano plazo, y para visualizar la mejor estabilidad financiera que podrá tener en su vida.
 
+Ahorrar
 
-![Ahorrar](https://media.giphy.com/media/l41YhVfr4kOzSBSMM/giphy.gif)
-
-## Resumen del proyecto
-
-Durante estos tres días crearás un producto que resuelve el problema de muchas de las estudiantes del Bootcamp de Laboratoria.
-
-Las estudiantes de Laboratoria sueñan con lograr su estabilidad y/o independencia financiera. Se podrá lograr con el tiempo con su nuevo sueldo como programadora o diseñadora de experiencia.  Pero, más allá de esperar un buen salario, pocas se han sentado a planificar cómo lograr sus metas financieras y proyectar cuándo lograrlas. 
+Las estudiantes de Laboratoria sueñan con lograr su estabilidad y/o independencia financiera. Se podrá lograr con el tiempo con su nuevo sueldo como programadora o diseñadora de experiencia. Pero, más allá de esperar un buen salario, pocas se han sentado a planificar cómo lograr sus metas financieras y proyectar cuándo lograrlas.
 
 Al recibir una oferta de trabajo, las estudiantes/egresadas no tienen un producto que les guíe a saber lo que les quedará libre del salario ofrecido, ni tienen un producto que les guíe a planificar cómo usar ese dinero “libre” para ir construyendo su ruta hacia la independencia financiera.
 
+## UX
 
-## Consideraciones generales
+- ### Historias de usuario
 
-- Este proyecto se debe resolver en equipos de hasta 4 personas.
-- Tiempo para completar el reto: 3 días.
-- Habrá dos presentaciones, una a la mitad de la _hackathon_ y otra al final.
-- Esta aplicación/web app que crearás va dirigido a estudiantes actuales de Laboratoria, pero podría ser usado también por egresadas de Laboratoria.
+Yo como estudiante de Laboratoria quiero poder realizar un presupuesto de los próximos 6 meses para poder sobrellevar los gastos que realizaré durante el bootcamp.
 
-## Objetivos de aprendizaje
+Yo como postulante de Laboratoria quiero ingresar a “Pre-supuesto”, para identificar si mi ahorro/ingreso es suficiente para poder cursar el bootcamp.
 
-- Enfrentarte a un reto de corta duración en el que pongas
-  en práctica todo lo aprendido hasta ahora.
-- Que sigas desarrollando tus habilidades de trabajo en equipo. Mientras más
-  personas en un equipo de trabajo, mayor complejidad para: tener un
-  entendimiento común, seguir el flujo de trabajo, buscar consensos, etc.
-- Que tú aprendas a planificar qué salario aceptar y cómo usar mejor ese dinero.
 
-## Parte Obligatoria
+- ### Análisis de heurísticas de usabilidad.
+- ### Modelo de negocio.
+- ### Sketch y/o prototipo (alta fidelidad , baja fidelidad o navegable.)
+- ### Qué hizo cada una en el proyecto.
+- ### Documentación de la importancia de una gestion saludable de la finanzas.
 
-- ## Consideraciones técnicas
+## FE
 
-	- #### UX
-		- Todo el planeamiento del trabajo deberá ser detallado en un repositorio único
-		por _squad_ en el que se presente el _planning_
-		y las inspiraciones utilizadas para definir el producto. 
-		Además:
-		- El diseño visual de los componentes es de libre elección.
-		- Agregar en el readme análisis de heurísticas de usabilidad.
-		- Modelo de negocio.
-		- Agregar en el readme sketch y/o prototipo (alta fidelidad , baja fidelidad o navegable.)
-		- Agregar en el archivo _readme_, qué hizo cada una en el proyecto.
-		- Documentar la importancia de la gestion saludable de la finanzas.
+- ### Construir una web app que solucione una problemática.
 
-	- #### FE
-		- Tú y tu equipo construirán una web app que solucione una problemática.
-		- El producto deberá presentarse publicado en github pages o en alguna plataforma de _hosting_ ( [now](https://zeit.co/now), [firebase hosting](https://firebase.google.com/products/hosting/)).
-		- En este proyecto debe haber persistencia de los datos. Con lo anterior nos referimos a que si la usuaria ingresó  un dato, que ese dato se pueda visualizar aunque recargues la página.
-		- Pueden usar algún framework de CSS si así lo deciden.
-	
-## Historias de Usuario.
-A continuación te dejamos unas historias de usuario que te podrán servir como guía en la construcción de tu web app.
+- ### Deployment en github pages o en alguna plataforma de hosting ( now, firebase hosting).
 
-- Yo como estudiante de Laboratoria que acabo de recibir una oferta de trabajo quiero poder realizar un presupuesto de mis gastos futuros y poder ahorrar un 10% de mi salario.
-- Yo como egresada de Laboratoria que me encuentro trabajando quiero poder realizar un presupuesto de mis gastos actuales, para en un futuro poder independizarme.
-- Yo como estudiante de Laboratoria quiero poder realizar un presupuesto de los próximos 6 meses para poder sobrellevar los gastos que realizaré durante el bootcamp.
+- ### En este proyecto debe haber persistencia de los datos. 
+    
+    Con lo anterior nos referimos a que si la usuaria ingresó un dato, que ese dato se pueda visualizar aunque recargues la página.
 
-Siéntete libre de agregar las historias de usuario que requieras.
-
-## Sobre las presentaciones
-
-- Habrá 2 presentaciones:
-	- Primer presentación será el día 24 de julio a partir de la 13:30.
-	- Segunda presentación será el día 25 de julio a partir de las 15:00.
-- Cada squad tendrá 3 minutos para presentar y 2 minutos para preguntas.
-- Las personas que presentan en la primera presentación no deben ser las mismas de la presentación final.
-- Solo podran presentar si cuentan con la liga de su proyecto, no podrán utilizar su propia computadora.
-
-## Recursos
-
-- En el siguiente [Link](https://drive.google.com/drive/folders/1lnwTDlIavnUCHbAfFXS2jPNQKDlCAhRM?usp=sharing) podrás encontrar recursos para resolver el reto.
-- En el siguiente [link](https://www.nngroup.com/articles/persona/) podrás encontrar informacion para poder desarrollar el user persona. Te dejamos un ejemplo de [user persona](http://www.businessdesigntools.com/portfolio-items/persona-canvas/).
-- Te dejamos algunos links en donde puedes consultar framework de CSS ([Bootstrap](https://getbootstrap.com/), [Materialize](https://materializecss.com/), [foundations](https://foundation.zurb.com/) y un recurso en donde podrás ver otras opciones de [framework](https://scotch.io/bar-talk/6-popular-css-frameworks-to-use-in-2019)).
-- Para la persistencia de datos puedes investigar sobre [storage](https://developer.mozilla.org/en-US/docs/Web/API/Storage)
-
+- ### Usar algún framework de CSS.
