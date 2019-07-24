@@ -16,7 +16,7 @@ En el caso de que los ingresos actuales de las postulantes no sean suficientes p
 
 2. **Solución:** Fomentar que lxs usuarixs administren sus gastos.
 
-Si la postulante después de ingresar sus datos quiere seguir teniendo la forma de administrar su dinero, lxs usuarixs tendrán que crear una cuenta para poder obtener el seguimiento y registro de su información, así podrá realizar cambios, como gastos imprevisto fuera del presupuesto.
+Si la postulante después de ingresar sus datos quiere seguir teniendo la forma de administrar su dinero, lxs usuarixs tendrán que crear una cuenta para poder obtener el seguimiento y registro de su información, así podrá realizar cambios, como gastos imprevistos fuera del presupuesto.
 
 ## UX
 
@@ -27,6 +27,8 @@ Si la postulante después de ingresar sus datos quiere seguir teniendo la forma 
 2. Yo como estudiante de Laboratoria quiero poder realizar un presupuesto de los próximos 6 meses para poder sobrellevar los gastos que realizaré durante el bootcamp.
 
 - ### User persona
+
+   ![User persona](src/img/Userpersona.png)
 
 - ### Análisis de heurísticas de usabilidad.
 
@@ -41,28 +43,32 @@ Si la postulante después de ingresar sus datos quiere seguir teniendo la forma 
 
 - ### Sketch y/o prototipo (alta fidelidad , baja fidelidad o navegable.)
 
+
+    1. Prototipo 1.0 Figma. 
+    
+    [Demo](https://www.figma.com/proto/bLrKYSYOSwNRFz4bEJs25h/Pre-supuesto?node-id=10%3A95&scaling=scale-down)
+
+    ![Prototipo 1.0 Figma](src/img/prototipo1.png)
+
 - ### Qué hizo cada una en el proyecto.
     * Isis Lázaro
+        Diagrama de flujo
     * Julieta Cervantes
+        User Persona
     * Leticia Vianey Lara Rangel
+        Estructura readme, sketch 
     * Maricruz Carmona
+        Prototipo Alta fidelidad
     
 - ### Documentación de la importancia de una gestion saludable de la finanzas.
-
-
-
-
- 
-
-
-
-Front-end
 
 ## FE
 
 - ### Diseño de UI
     
     ### Diagrama de flujo
+
+    ![Diagrama de flujo](src/img/flowPresupuesto.jpg)
 
     ### MVP(Código)
     * Lista de gastos mensuales
@@ -71,13 +77,6 @@ Front-end
 
     ### Definition of done (del prototipo)
     1. Mostrar al usuarix si podrá solventar su permanencia en el bootcamp.
-    
+
     2. Informar al usuarix sobre cómo, cuándo y que rubros debe utilizar para generar el hábito del ahorro y la gestión de finanzas personales y así establecer una meta realista y alcanzable a corto/mediano plazo.
 
-- ### Construir una web app que solucione una problemática.
-
-- ### Deployment en github pages o en alguna plataforma de hosting ( now, firebase hosting).
-
-- ### En este proyecto debe haber persistencia de los datos. 
-    
-- ### Usar algún framework de CSS.
