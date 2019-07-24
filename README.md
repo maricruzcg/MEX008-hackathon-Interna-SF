@@ -51,7 +51,7 @@ Si la postulante después de ingresar sus datos quiere seguir teniendo la forma 
     
     [Demo](https://www.figma.com/proto/bLrKYSYOSwNRFz4bEJs25h/Pre-supuesto?node-id=10%3A95&scaling=scale-down)
     
-    ![Prototipo](src/img/prototipo1.png)
+    ![Prototipo](src/img/prototipo1.PNG)
 
 - ### Qué hizo cada una en el proyecto.
     * Isis Lázaro
