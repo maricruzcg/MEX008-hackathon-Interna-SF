@@ -6,63 +6,81 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Pre-supuesto</title>
+    <!--Enlace a bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <!--Comienza pantalla "Define tu meta"-->
     <header>
-        <img src="" alt="">
+        <a class="navbar-brand" href="#">
+            <img src="/MEX008-hackathon-Interna-SF/src/img/Icono Pre.png" alt="Logo-presupuesto" width="100" height="100">
+        </a>
     </header>
     <section>
-        <a href="#"><i>1</i></a>
-        <h1>Sabemos que tu meta es ingresar a Laboratoria para iniciar una carrera en tecnología que transforme
+        <a href="#" class="btn btn-outline-warning"><i>1</i></a>
+        <p>Sabemos que tu meta es ingresar a Laboratoria para iniciar una carrera en tecnología que transforme
             tu futuro y tu vida.
-        </h1>
+        </p>
 
-        <a href="#"><i>2</i></a>
-        <h1>Nosotros queremos que alcances tu meta ayudandote a definirla.
+        <a href="#" class="btn btn-outline-warning"><i>2</i></a>
+        <p>Nosotros queremos que alcances tu meta ayudandote a definirla.
+        </p>
 
-        </h1>
-        <a href="#"><i>3</i></a>
-        <h1>Toma conciencia de los recursos disponibles, tus gastos semanales y el tiempo con el que cuentas para
+        <a href="#" class="btn btn-outline-warning"><i>3</i></a>
+        <p>Toma conciencia de los recursos disponibles, tus gastos semanales y el tiempo con el que cuentas para
             saber si tu meta es alcanzable o si requieres apoyo para lograrlo.
-        </h1>
-        <button>Define tu meta</button>
+        </p>
+        <button class="btn btn-dark" id="define-tu-meta">Define tu meta</button>
     </section>
     <!--Termina pantalla "Define tu meta"-->
+
     <!--Inicia pantalla "Calcula"-->
     <section>
         <!--Barra de navegación de esta pantalla-->
-        <nav>
-            <img src="" alt="">
-            <button><i>?</i></button>
+        <!-- Just an image -->
+        <nav class="navbar navbar-warning bg-warning">
+            <a class="navbar-brand" href="#">
+                <img src="/MEX008-hackathon-Interna-SF/src/img/Icono Pre.png" width="100" height="100">
+            </a>
+            <button class="btn btn-outline-dark" id="modal-ayuda"><i>?</i></button>
         </nav>
         <article>
             <a href="#"><i>$Iconoc</i></a>
-            <input type="num">
+            <input type="num" id="ingresa-ahorro">
             <p>Pesos</p>
         </article>
         <article>
             <a href="#"><i>Icono</i></a>
-            <input type="num">
+            <input type="num" id="ingresa-gasto-semanal">
             <p>Pesos</p>
         </article>
         <article>
             <a href="#"><i>Icono</i></a>
-            <input type="num">
+            <input type="num" id="tiempo-antes-de-bootcamp">
             <p>Semanas</p>
         </article>
-        <button>Calcula</button>
+        <button class="btn btn-dark">Calcula</button>
     </section>
     <!--Termina pantalla "Calcula"-->
     <!--Comienza footer-->
-    <footer>
-        <button>1</button>
-        <button>2</button>
-        <button>3</button>
+    <footer class=".navbar-nav navbar-dark bg-dark">
+        <button class="btn btn-dark"><i><img src="" alt=""></i>1</button>
+        <button class="btn btn-dark"><i></i>2</button>
+        <button class="btn btn-dark"><i></i>3</button>
     </footer>
-
+    <!--Termina footer-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
     <script src="app.js"></script>
 </body>
 
