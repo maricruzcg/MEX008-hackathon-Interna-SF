@@ -28,6 +28,8 @@ Si la postulante después de ingresar sus datos quiere seguir teniendo la forma 
 
 - ### User persona
 
+   ![User persona](src/img/Userpersona.png)
+
 - ### Análisis de heurísticas de usabilidad.
 
 - ### Diseño visual
@@ -43,20 +45,15 @@ Si la postulante después de ingresar sus datos quiere seguir teniendo la forma 
 
 - ### Qué hizo cada una en el proyecto.
     * Isis Lázaro
+        Diagrama de flujo
     * Julieta Cervantes
+        User Persona
     * Leticia Vianey Lara Rangel
+        Benchmark 
     * Maricruz Carmona
+        Prototipo Alta fidelidad
     
 - ### Documentación de la importancia de una gestion saludable de la finanzas.
-
-
-
-
- 
-
-
-
-Front-end
 
 ## FE
 
@@ -71,7 +68,7 @@ Front-end
 
     ### Definition of done (del prototipo)
     1. Mostrar al usuarix si podrá solventar su permanencia en el bootcamp.
-    
+
     2. Informar al usuarix sobre cómo, cuándo y que rubros debe utilizar para generar el hábito del ahorro y la gestión de finanzas personales y así establecer una meta realista y alcanzable a corto/mediano plazo.
 
 - ### Construir una web app que solucione una problemática.
