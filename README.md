@@ -44,14 +44,14 @@ Si la postulante después de ingresar sus datos quiere seguir teniendo la forma 
 - ### Sketch y/o prototipo (alta fidelidad , baja fidelidad o navegable.)
 
     1. Sketch (baja fidelidad)
-    
+
     ![sketch](src/img/sketch1.jpeg)
 
     2. Prototipo 1.0 Figma. 
     
     [Demo](https://www.figma.com/proto/bLrKYSYOSwNRFz4bEJs25h/Pre-supuesto?node-id=10%3A95&scaling=scale-down)
 
-    ![Prototipo](src/img/prototipo1.png)
+![prototipo](src/img/prototipo1.png)
 
 - ### Qué hizo cada una en el proyecto.
     * Isis Lázaro
