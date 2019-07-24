@@ -51,7 +51,7 @@ Si la postulante después de ingresar sus datos quiere seguir teniendo la forma 
     
     [Demo](https://www.figma.com/proto/bLrKYSYOSwNRFz4bEJs25h/Pre-supuesto?node-id=10%3A95&scaling=scale-down)
 
-![prototipo](src/img/prototipo1.png)
+    ![prototipo](src/img/prototipo1.png)
 
 - ### Qué hizo cada una en el proyecto.
     * Isis Lázaro
@@ -84,4 +84,3 @@ Si la postulante después de ingresar sus datos quiere seguir teniendo la forma 
     1. Mostrar al usuarix si podrá solventar su permanencia en el bootcamp.
 
     2. Informar al usuarix sobre cómo, cuándo y que rubros debe utilizar para generar el hábito del ahorro y la gestión de finanzas personales y así establecer una meta realista y alcanzable a corto/mediano plazo.
-
