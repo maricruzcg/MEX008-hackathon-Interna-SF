@@ -62,14 +62,14 @@ Front-end
 
 - ### Diseño de UI
     
-    #### Diagrama de flujo
+    ### Diagrama de flujo
 
-    #### MVP(Código)
+    ### MVP(Código)
     * Lista de gastos mensuales
     * Ahorro disponible
     * Tiempo sin percibir ingresos
 
-    #### Definition of done (del prototipo)
+    ### Definition of done (del prototipo)
     1. Mostrar al usuarix si podrá solventar su permanencia en el bootcamp.
     
     2. Informar al usuarix sobre cómo, cuándo y que rubros debe utilizar para generar el hábito del ahorro y la gestión de finanzas personales y así establecer una meta realista y alcanzable a corto/mediano plazo.
