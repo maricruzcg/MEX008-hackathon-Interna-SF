@@ -16,3 +16,11 @@ body-splash {
 #scrn-calcula {
     display: none;
 }
+
+footer {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+}
