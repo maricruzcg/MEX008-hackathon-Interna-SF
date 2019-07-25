@@ -16,6 +16,26 @@ ahorro       = document.getElementById("ingresa-ahorro");
 gastoSemanal = document.getElementById("ingresa-gasto");
 tPreBootcamp = document.getElementById("tiempo-antes-de-bootcamp");
 const logoCabecera = document.getElementById("hide-header");
+const iniciarSesion = document.getElementById('iniciar-sesion');
+
+iniciarSesion.addEventListener('click', ()=> {
+    Swal.fire({
+        title: '<img src="/MEX008-hackathon-Interna-SF/src/img/login.png">',
+        html:
+          '<input type="email" placeholder="Email"> ' +
+          '<input type="password" placeholder="Password">' + '<br>'+ '¿No tienes una cuenta?' + '<br>' + '<button class="btn-warning">Registrate</button>',
+        showCloseButton: true,
+        showCancelButton: true,
+        focusConfirm: false,
+        confirmButtonText:
+          '<i class="fa fa-thumbs-up"></i> Acceder!',
+        confirmButtonAriaLabel: 'Registrate!',
+        cancelButtonText:
+          '<i class="fa fa-thumbs-down"></i>',
+        cancelButtonAriaLabel: 'Cancelar',
+      })
+});
+
 
 btnDefMeta.addEventListener("click", () => {
     scrnCalcula.style.display = "block";
