@@ -41,6 +41,8 @@ Si la postulante después de ingresar sus datos quiere seguir teniendo la forma 
 
 - ### Modelo de negocio.
 
+   ![Modelo de negocio de Pre-Supuesto] (src/Modelo de negocio.docx)
+
 - ### Sketch y/o prototipo (alta fidelidad , baja fidelidad o navegable.)
 
     1. Sketch (baja fidelidad)
