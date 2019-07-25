@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Pre-supuesto</title>
+    <title>&ltPre$upuesto&gt</title>
     <!--Enlace a bootstrap-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -47,7 +47,7 @@
             </a>
             <button class="btn btn-outline-dark" id="modal-ayuda"><i>?</i></button>
         </nav>
-        <form action="">
+        <form id = "form-calcula">
             <article>
                 <a href="#"><i>$Iconoc</i></a>
                 <input type="number" id="ingresa-ahorro" min = 0 required>
@@ -55,15 +55,16 @@
             </article>
             <article>
                 <a href="#"><i>Icono</i></a>
-                <input type="number" id="ingresa-gasto-semanal" required>
+                <input type="number" id="ingresa-gasto-semanal" min = 0 required>
                 <p>Pesos</p>
             </article>
             <article>
                 <a href="#"><i>Icono</i></a>
-                <input type="number" id="tiempo-antes-de-bootcamp" required>
-                <p>Semanas</p>
+                <input type="number" id="tiempo-antes-de-bootcamp" min = 0 max = 12 required>
+                <p>Meses</p>
             </article>
-            <button id = "btn-calcula" class="btn btn-dark">Calcula</button>
+            <input type = "submit" value = "Calcula" id = "btn-calcula" class="btn btn-dark">
+            <!-- <button id = "btn-calcula" class="btn btn-dark">Calcula</button> -->
         </form>
     </section>
     <!--Termina pantalla "Calcula"-->
@@ -84,6 +85,7 @@
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
     <script src="app.js"></script>
+    <script src="presupuesto.js"></script>
 </body>
 
 </html>
