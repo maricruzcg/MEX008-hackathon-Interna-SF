@@ -1,0 +1,14 @@
+.background {
+    background-color: #FBE423;
+    display: flex;
+    justify-content: center;
+}
+
+.text-center {
+    
+}
+
+.git-splash {
+    height: 100vh;
+    margin-top: 7em;
+}
