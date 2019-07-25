@@ -1,7 +1,11 @@
 body-splash {
-    background-color: #fbe423;
+    background-color: #FBE423;
 }
 
 .centrar-Gif {
     height: 100vh;
+}
+
+.btn-warningCSS {
+    background-color: #FBE423;
 }
