@@ -80,6 +80,8 @@ Se trato de que el diseño fuera fácil, intuitivo y de rápida accesibilidad, p
 
 ![Salud financiera](docs/trabajolab_hackaton.docx)
 
+###
+
 # FE
 
 - ## Diseño de UI
@@ -109,3 +111,7 @@ Se trato de que el diseño fuera fácil, intuitivo y de rápida accesibilidad, p
     5. Javascript
     6. Css
     7. Trello
+
+    ### Presentación
+    
+    [Ver] (https://docs.google.com/presentation/d/1Z5wD2HJul1JWa1_zbdiEc-Z6u8b3eb3me1AflLqxegQ/edit?usp=sharing)
