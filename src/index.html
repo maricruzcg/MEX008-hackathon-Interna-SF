@@ -19,13 +19,13 @@
 
 <body>
     <!--Comienza pantalla "Define tu meta"-->
-    <header>
+    <header id="hide-header">
         <a class="navbar-brand" href="#">
             <img src="/MEX008-hackathon-Interna-SF/src/img/Icono Pre.png" alt="Logo-presupuesto" width="100"
                 height="100">
         </a>
     </header>
-    <section id = "scrn-intro">
+    <section class="section-conoce-tus-finanzas" id="scrn-intro">
         <a href="#" class="btn btn-outline-warning"><i>1</i></a>
         <p>Sabemos que tu meta es ingresar a Laboratoria para iniciar una carrera en tecnología que transforme
             tu futuro y tu vida.
@@ -36,7 +36,8 @@
         </p>
 
         <a href="#" class="btn btn-outline-warning"><i>3</i></a>
-        <p>Para definirla necesitas conocer tus recursos disponibles, tus gastos semanales y el tiempo con el que cuentas para
+        <p>Para definirla necesitas conocer tus recursos disponibles, tus gastos semanales y el tiempo con el que
+            cuentas para
             saber si tu meta es alcanzable o requieres apoyo para lograrlo.
         </p>
         <button class="btn btn-dark" id="define-tu-meta">Conoce tus finanzas</button>
@@ -44,7 +45,7 @@
     <!--Termina pantalla "Define tu meta"-->
 
     <!--Inicia pantalla "Calcula"-->
-    <section  id = "scrn-calcula">
+    <section id="scrn-calcula">
         <!--Barra de navegación de esta pantalla-->
         <!-- Just an image -->
         <nav class="navbar navbar-warning btn-warningCSS">
@@ -53,7 +54,8 @@
             </a>
             <button class="btn btn-outline-dark" id="modal-ayuda"><i>?</i></button>
         </nav>
-        <form id = "form-calcula"> <!-- autocomplete="off" -->
+        <form id="form-calcula">
+            <!-- autocomplete="off" -->
             <section>
                 <article class="justify-content-center">
                     <div class="input-group mb-3">
@@ -65,7 +67,7 @@
                             </span>
                         </div>
                         <input type="number" class="form-control" placeholder="Ingresa tu ahorro/efectivo"
-                            aria-label="ahorro" aria-describedby="basic-addon1" id="ingresa-ahorro" min = 0 required>
+                            aria-label="ahorro" aria-describedby="basic-addon1" id="ingresa-ahorro" min=0 required>
                         <div class="input-group-append">
                             <span class="input-group-text">Pesos</span>
                         </div>
@@ -81,7 +83,7 @@
                             </span>
                         </div>
                         <input type="number" class="form-control" placeholder="Ingresa tu gasto semanal estimado"
-                            aria-label="ahorro" aria-describedby="basic-addon1" id="ingresa-gasto" min = 0 required>
+                            aria-label="ahorro" aria-describedby="basic-addon1" id="ingresa-gasto" min=0 required>
                         <div class="input-group-append">
                             <span class="input-group-text">Pesos</span>
                         </div>
@@ -97,23 +99,30 @@
                             </span>
                         </div>
                         <input type="number" class="form-control" placeholder="Tiempo antes del bootcamp"
-                            aria-label="ahorro" aria-describedby="basic-addon1" id="tiempo-antes-de-bootcamp" min = 0 max = 12 required>
+                            aria-label="ahorro" aria-describedby="basic-addon1" id="tiempo-antes-de-bootcamp" min=0
+                            max=12 required>
                         <div class="input-group-append">
                             <span class="input-group-text">Meses</span>
                         </div>
                     </div>
                 </article>
             </section>
-            <input type = "submit" value = "Calcula" id = "btn-calcula" class="btn btn-dark">
+            <input type="submit" value="Calcula" id="btn-calcula" class="btn btn-dark">
             <!-- <button class="btn btn-dark">Calcula</button> -->
         </form>
     </section>
     <!--Termina pantalla "Calcula"-->
     <!--Comienza footer-->
     <footer class=".navbar-nav navbar-dark bg-dark">
-        <button class="btn btn-dark"><i><img src="" alt=""></i>1</button>
-        <button class="btn btn-dark"><i></i>2</button>
-        <button class="btn btn-dark"><i></i>3</button>
+        <h6>Desarrollado por:</h6>
+        <p>Maricruz Carmona</p>
+        <p>Isis Lázaro</p>
+        <p>Julieta Cervantes</p>
+        <p>Vianey Lara</p>
+        <button class="btn btn-dark"><i class="far fa-kiss-wink-heart"></i></button>
+
+        <!--<button class="btn btn-dark"><i></i>2</button>
+        <button class="btn btn-dark"><i></i>3</button> -->
     </footer>
     <!--Termina footer-->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"

@@ -1,11 +1,10 @@
-//Prueba sweet alert
+//Modal ayuda
 document.getElementById('modal-ayuda').addEventListener('click', ()=> {
-    Swal.fire({
-        type: 'error',
-        title: 'Oops...',
-        text: 'Something went wrong!',
-        footer: '<a href>Why do I have this issue?</a>'
-      })
+    Swal.fire(
+        'Te recomendamos considerar lo siguiente para tu cálculo aproximado:',
+        'Transporte, alimentos y la "Cultura de pago ($250 mxn)"',
+        'question'
+      )
 });
 
 btnDefMeta   = document.getElementById("define-tu-meta");
@@ -16,10 +15,12 @@ formCalcula  = document.getElementById("form-calcula");
 ahorro       = document.getElementById("ingresa-ahorro");
 gastoSemanal = document.getElementById("ingresa-gasto");
 tPreBootcamp = document.getElementById("tiempo-antes-de-bootcamp");
+const logoCabecera = document.getElementById("hide-header");
 
 btnDefMeta.addEventListener("click", () => {
     scrnCalcula.style.display = "block";
     scrnIntro.style.display = "none";
+    logoCabecera.style.display = "none";
     ahorro.focus();
 });
 
