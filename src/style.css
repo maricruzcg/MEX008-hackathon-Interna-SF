@@ -5,3 +5,10 @@ body-splash {
 .centrar-Gif {
     height: 100vh;
 }
+
+#scrn-intro {
+    display: block;
+}
+#scrn-calcula {
+    display: none;
+}

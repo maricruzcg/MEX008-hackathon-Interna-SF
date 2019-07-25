@@ -19,7 +19,7 @@
             <img src="/MEX008-hackathon-Interna-SF/src/img/Icono Pre.png" alt="Logo-presupuesto" width="100" height="100">
         </a>
     </header>
-    <section>
+    <section id = "scrn-intro">
         <a href="#" class="btn btn-outline-warning"><i>1</i></a>
         <p>Sabemos que tu meta es ingresar a Laboratoria para iniciar una carrera en tecnología que transforme
             tu futuro y tu vida.
@@ -38,7 +38,7 @@
     <!--Termina pantalla "Define tu meta"-->
 
     <!--Inicia pantalla "Calcula"-->
-    <section>
+    <section id = "scrn-calcula">
         <!--Barra de navegación de esta pantalla-->
         <!-- Just an image -->
         <nav class="navbar navbar-warning bg-warning">
@@ -49,20 +49,20 @@
         </nav>
         <article>
             <a href="#"><i>$Iconoc</i></a>
-            <input type="num" id="ingresa-ahorro">
+            <input type="number" id="ingresa-ahorro">
             <p>Pesos</p>
         </article>
         <article>
             <a href="#"><i>Icono</i></a>
-            <input type="num" id="ingresa-gasto-semanal">
+            <input type="number" id="ingresa-gasto-semanal" required>
             <p>Pesos</p>
         </article>
         <article>
             <a href="#"><i>Icono</i></a>
-            <input type="num" id="tiempo-antes-de-bootcamp">
+            <input type="number" id="tiempo-antes-de-bootcamp">
             <p>Semanas</p>
         </article>
-        <button class="btn btn-dark">Calcula</button>
+        <button id = "btn-calcula" class="btn btn-dark">Calcula</button>
     </section>
     <!--Termina pantalla "Calcula"-->
     <!--Comienza footer-->
