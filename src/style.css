@@ -6,6 +6,10 @@ body-splash {
     height: 100vh;
 }
 
+.btn-warningCSS {
+    background-color: #FBE423;
+}
+
 #scrn-intro {
     display: block;
 }

@@ -8,7 +8,7 @@ window.presupuesto = {
         return savings - (expenses*25);
     },
 
-    balance : () => {
-        
+    balance : (saldo) => {
+
     }
 };
