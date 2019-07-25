@@ -41,7 +41,7 @@ Si la postulante después de ingresar sus datos quiere seguir teniendo la forma 
 
 - ### Modelo de negocio.
 
-   ![Modelo de negocio de Pre-Supuesto](/Modelo de negocio.docx)
+   ![Modelo de negocio de Pre-Supuesto](docs/modeloNegocio.docx)
 
 - ### Sketch y/o prototipo (alta fidelidad , baja fidelidad o navegable.)
 
