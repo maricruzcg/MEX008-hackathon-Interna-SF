@@ -1,8 +1,8 @@
 //Modal ayuda
 document.getElementById('modal-ayuda').addEventListener('click', ()=> {
     Swal.fire(
-        'Te recomendamos considerar lo siguiente para tu cálculo aproximado:',
-        'Transporte, alimentos y la "Cultura de pago ($250 mxn)"',
+        'Te recomendamos considerar lo siguiente para estimar tus gastos semanales:',
+        'Transporte, alimentos y otros gastos que sean importantes para ti',
         'question'
       )
 });
