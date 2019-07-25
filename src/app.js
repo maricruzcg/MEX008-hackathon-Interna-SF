@@ -27,7 +27,7 @@ formCalcula.addEventListener("submit", event => {
     event.preventDefault();
     const gastoTotal = presupuesto.expensesCalc(parseInt(gastoSemanal.value));
     const balance = presupuesto.balance(parseInt(ahorro.value), gastoTotal);
-    console.log(balance);
+    console.log(gastoTotal, balance);
     
 
     if (balance > 0) {
