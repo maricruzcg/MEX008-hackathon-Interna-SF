@@ -114,4 +114,4 @@ Se trato de que el diseño fuera fácil, intuitivo y de rápida accesibilidad, p
 
     ### Presentación
     
-    [Ver] (https://docs.google.com/presentation/d/1Z5wD2HJul1JWa1_zbdiEc-Z6u8b3eb3me1AflLqxegQ/edit?usp=sharing)
+    ![Ver presentación] (https://docs.google.com/presentation/d/1Z5wD2HJul1JWa1_zbdiEc-Z6u8b3eb3me1AflLqxegQ/edit?usp=sharing)
