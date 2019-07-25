@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Pre-supuesto</title>
+    <title>&ltPre$upuesto&gt</title>
     <!--Enlace a bootstrap-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -25,26 +25,26 @@
                 height="100">
         </a>
     </header>
-    <section>
+    <section id = "scrn-intro">
         <a href="#" class="btn btn-outline-warning"><i>1</i></a>
         <p>Sabemos que tu meta es ingresar a Laboratoria para iniciar una carrera en tecnología que transforme
             tu futuro y tu vida.
         </p>
 
         <a href="#" class="btn btn-outline-warning"><i>2</i></a>
-        <p>Nosotros queremos que alcances tu meta ayudandote a definirla.
+        <p>Nosotros queremos que alcances tu meta ayudándote a definirla.
         </p>
 
         <a href="#" class="btn btn-outline-warning"><i>3</i></a>
-        <p>Toma conciencia de los recursos disponibles, tus gastos semanales y el tiempo con el que cuentas para
-            saber si tu meta es alcanzable o si requieres apoyo para lograrlo.
+        <p>Para definirlas necesitas conocer tus recursos disponibles, tus gastos semanales y el tiempo con el que cuentas para
+            saber si tu meta es alcanzable o requieres apoyo para lograrlo.
         </p>
         <button class="btn btn-dark" id="define-tu-meta">Conoce tus finanzas</button>
     </section>
     <!--Termina pantalla "Define tu meta"-->
 
     <!--Inicia pantalla "Calcula"-->
-    <section>
+    <section  id = "scrn-calcula">
         <!--Barra de navegación de esta pantalla-->
         <!-- Just an image -->
         <nav class="navbar navbar-warning btn-warningCSS">
@@ -53,57 +53,60 @@
             </a>
             <button class="btn btn-outline-dark" id="modal-ayuda"><i>?</i></button>
         </nav>
-        <section>
-            <article class="justify-content-center">
-                <div class="input-group mb-3">
-                    <div class="input-group-prepend">
-                        <span class="input-group-text" id="basic-addon1">
-                            <i>
-                                <img src="/MEX008-hackathon-Interna-SF/src/img/cerdito.svg" width="20px">
-                            </i>
-                        </span>
+        <form id = "form-calcula"> <!-- autocomplete="off" -->
+            <section>
+                <article class="justify-content-center">
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text" id="basic-addon1">
+                                <i>
+                                    <img src="img/cerdito.svg" width="20px">
+                                </i>
+                            </span>
+                        </div>
+                        <input type="number" class="form-control" placeholder="Ingresa tu ahorro/efectivo"
+                            aria-label="ahorro" aria-describedby="basic-addon1" id="ingresa-ahorro" min = 0 required>
+                        <div class="input-group-append">
+                            <span class="input-group-text">Pesos</span>
+                        </div>
                     </div>
-                    <input type="number" class="form-control" placeholder="Ingresa tu ahorro/efectivo"
-                        aria-label="ahorro" aria-describedby="basic-addon1" id="ingresa-ahorro">
-                    <div class="input-group-append">
-                        <span class="input-group-text">Pesos</span>
+                </article>
+                <article class="justify-content-center">
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text" id="basic-addon1">
+                                <i>
+                                    <img src="img/$.png" width="10px">
+                                </i>
+                            </span>
+                        </div>
+                        <input type="number" class="form-control" placeholder="Ingresa tu gasto semanal estimado"
+                            aria-label="ahorro" aria-describedby="basic-addon1" id="ingresa-gasto" min = 0 required>
+                        <div class="input-group-append">
+                            <span class="input-group-text">Pesos</span>
+                        </div>
                     </div>
-                </div>
-            </article>
-            <article class="justify-content-center">
-                <div class="input-group mb-3">
-                    <div class="input-group-prepend">
-                        <span class="input-group-text" id="basic-addon1">
-                            <i>
-                                <img src="/MEX008-hackathon-Interna-SF/src/img/$.png" width="10px">
-                            </i>
-                        </span>
+                </article>
+                <article class="justify-content-center">
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text" id="basic-addon1">
+                                <i>
+                                    <img src="img/reloj.png" width="20px">
+                                </i>
+                            </span>
+                        </div>
+                        <input type="number" class="form-control" placeholder="Tiempo antes del bootcamp"
+                            aria-label="ahorro" aria-describedby="basic-addon1" id="tiempo-antes-de-bootcamp" min = 0 max = 12 required>
+                        <div class="input-group-append">
+                            <span class="input-group-text">Meses</span>
+                        </div>
                     </div>
-                    <input type="number" class="form-control" placeholder="Ingresa tu ahorro/efectivo"
-                        aria-label="ahorro" aria-describedby="basic-addon1" id="ingresa-ahorro">
-                    <div class="input-group-append">
-                        <span class="input-group-text">Pesos</span>
-                    </div>
-                </div>
-            </article>
-            <article class="justify-content-center">
-                <div class="input-group mb-3">
-                    <div class="input-group-prepend">
-                        <span class="input-group-text" id="basic-addon1">
-                            <i>
-                                <img src="/MEX008-hackathon-Interna-SF/src/img/reloj.png" width="20px">
-                            </i>
-                        </span>
-                    </div>
-                    <input type="number" class="form-control" placeholder="Tiempo antes del bootcamp"
-                        aria-label="ahorro" aria-describedby="basic-addon1" id="tiempo-antes-de-bootcamp">
-                    <div class="input-group-append">
-                        <span class="input-group-text">Semanas</span>
-                    </div>
-                </div>
-            </article>
-        </section>
-        <button class="btn btn-dark">Calcula</button>
+                </article>
+            </section>
+            <input type = "submit" value = "Calcula" id = "btn-calcula" class="btn btn-dark">
+            <!-- <button class="btn btn-dark">Calcula</button> -->
+        </form>
     </section>
     <!--Termina pantalla "Calcula"-->
     <!--Comienza footer-->
@@ -123,6 +126,7 @@
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
     <script src="app.js"></script>
+    <script src="presupuesto.js"></script>
 </body>
 
 </html>

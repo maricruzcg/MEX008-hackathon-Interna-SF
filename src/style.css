@@ -9,3 +9,10 @@ body-splash {
 .btn-warningCSS {
     background-color: #FBE423;
 }
+
+#scrn-intro {
+    display: block;
+}
+#scrn-calcula {
+    display: none;
+}
