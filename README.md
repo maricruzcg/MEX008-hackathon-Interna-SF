@@ -67,6 +67,8 @@ Si la postulante después de ingresar sus datos quiere seguir teniendo la forma 
     
 - ### Documentación de la importancia de una gestion saludable de la finanzas.
 
+![Salud financiera](docs/trabajolab_hackaton.docx)
+
 # FE
 
 - ## Diseño de UI
